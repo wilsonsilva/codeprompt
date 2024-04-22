@@ -20,7 +20,7 @@ interface SelectModelProps {
   onSelectionChange: (value: string) => void;
 }
 const SelectModel = ({ onSelectionChange }: SelectModelProps) => {
-  const [selectedItem, setSelectedItem] = useState("gpt-3.5");
+  const [selectedItem, setSelectedItem] = useState("claude-3");
 
   const handleChange = (e: RadioChangeEvent) => {
     const value = e.target.value;
@@ -36,7 +36,7 @@ const SelectModel = ({ onSelectionChange }: SelectModelProps) => {
       <StepHeading>1. Select Model</StepHeading>
 
       <Radio.Group
-        defaultValue="gpt-3.5"
+        defaultValue="claude-3"
         buttonStyle="solid"
         onChange={handleChange}
       >
