@@ -36,19 +36,19 @@ So in CodePrompt, we add functionalities such as file selection and code editing
 2. Install the required packages:
 
    ```bash
-   cd codeprompt && yarn
+   cd codeprompt && bun
    ```
 
 3. Build the application:
 
    ```bash
-   yarn build
+   bun run build
    ```
 
 4. Start the development server:
 
    ```bash
-   yarn start
+   bun start
    ```
 
 ## 👥 Contributing
