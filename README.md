@@ -3,7 +3,7 @@
 > CodePrompt is the code repository loader interface that consumes your relevant code and turns it into a GPT prompt — allowing the GPT to write more complex code for you.
 
 <div align="center">
-    <img src="https://codeprompt.xyz/ogimage.jpeg" width="100%" />
+    <img src="https://codeprompt.vercel.app/ogimage.jpeg" width="100%" />
 </div>
 <br/>
 
@@ -13,7 +13,7 @@ The inspiration and ideas for this project were primarily drawn from [mpoon/gpt-
 
 So in CodePrompt, we add functionalities such as file selection and code editing, which enable developers to selectively choose relevant files and specific portions of code to build a GPT prompt based on their requirements.
 
-[Try it yourself](https://codeprompt.xyz), [Report a Bug / Request a Feature](https://github.com/chunrapeepat/codeprompt/issues)
+[Try it yourself](https://codeprompt.vercel.app), [Report a Bug / Request a Feature](https://github.com/wilsonsilva/codeprompt/issues)
 
 ## 📖 How to use:
 
@@ -30,7 +30,7 @@ So in CodePrompt, we add functionalities such as file selection and code editing
 1. Clone the repository:
 
    ```bash
-   git clone git@github.com:chunrapeepat/codeprompt.git
+   git clone git@github.com:wilsonsilva/codeprompt.git
    ```
 
 2. Install the required packages:
@@ -61,8 +61,10 @@ Contributions to CodePrompt are welcome and encouraged! To contribute, please fo
 4. Push your changes to your fork
 5. Submit a pull request
 
-Or, if you have any fun ideas, go to [the issues page](https://github.com/chunrapeepat/codeprompt/issues) and post them there 🔥
+Or, if you have any fun ideas, go to [the issues page](https://github.com/wilsonsilva/codeprompt/issues) and post them there 🔥
 
 ---
 
 Crafted with 💖 by [@chunrapeepat](https://twitter.com/chunrapeepat)
+<br/>
+Forked with 🖤 by [@wilsonsilva90](https://twitter.com/wilsonsilva90)

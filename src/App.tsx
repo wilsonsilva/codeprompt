@@ -62,7 +62,7 @@ const Header = () => {
         <h1>{`<CodePrompt />`}</h1>
         <div>
           <a
-            href="https://github.com/chunrapeepat/codeprompt"
+            href="https://github.com/wilsonsilva/codeprompt"
             target="_blank"
             rel="noopener noreferrer"
             style={{ marginRight: 10 }}
@@ -70,7 +70,7 @@ const Header = () => {
             <GithubOutlined style={{ marginRight: 5 }} /> Star on Github
           </a>
           <a
-            href="https://twitter.com/chunrapeepat"
+            href="https://twitter.com/wilsonsilva90"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -118,6 +118,16 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           @chunrapeepat
+        </a>
+      </p>
+      <p>
+        Forked with <HeartFilled style={{ color: "#000" }} /> by{" "}
+        <a
+          href="https://twitter.com/wilsonsilva90"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @wilsonsilva90
         </a>
       </p>
     </FooterContainer>
