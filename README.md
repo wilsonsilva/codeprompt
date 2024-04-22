@@ -17,7 +17,7 @@ So in CodePrompt, we add functionalities such as file selection and code editing
 
 ## 📖 How to use:
 
-1. Choose a GPT model from the available options, such as GPT-3.5, GPT-4, or GPT-4-32K.
+1. Choose a GPT model from the available options, such as GPT-3.5, GPT-4, Claude, Llama, Mistral and more.
 2. Select a public repository that you want to work with.
 3. Choose the relevant files from the repository that you want to include into the prompt.
 4. Remove any irrelevant code and add specific instructions as needed.

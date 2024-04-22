@@ -40,8 +40,12 @@ const SelectModel = ({ onSelectionChange }: SelectModelProps) => {
         buttonStyle="solid"
         onChange={handleChange}
       >
+        <Radio.Button value="claude-3">Claude 3</Radio.Button>
+        <Radio.Button value="command-r+">Command R+</Radio.Button>
         <Radio.Button value="gpt-3.5">GPT-3.5</Radio.Button>
         <Radio.Button value="gpt-4">GPT-4</Radio.Button>
+        <Radio.Button value="llama-3">Llama 3</Radio.Button>
+        <Radio.Button value="mistral-large">Mistral Large</Radio.Button>
       </Radio.Group>
 
       {selectedItem && (
