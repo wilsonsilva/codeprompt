@@ -42,7 +42,6 @@ const SelectModel = ({ onSelectionChange }: SelectModelProps) => {
       >
         <Radio.Button value="gpt-3.5">GPT-3.5</Radio.Button>
         <Radio.Button value="gpt-4">GPT-4</Radio.Button>
-        <Radio.Button value="gpt-4-32k">GPT-4-32K</Radio.Button>
       </Radio.Group>
 
       {selectedItem && (
